@@ -70,6 +70,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `events` (
     mkt_term                  string,
     mkt_content               string,
     mkt_campaign              string,
+    contexts                  string,
     se_category               string,
     se_action                 string,
     se_label                  string,
